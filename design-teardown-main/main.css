@@ -1,0 +1,161 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+a {
+  color: #0088ccd9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 12vh;
+  padding-left: 50px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header h3 {
+  line-height: 12vh;
+}
+
+section {
+  margin: 100px;
+}
+
+article,
+aside,
+footer,
+.design-systems-banner {
+  background-color: black;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.2;
+  font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Martel', serif;
+}
+
+
+/* Main Section */
+
+.articles-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.articles-main article {
+  opacity: 0.2;
+}
+
+.articles-main aside {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  opacity: 0.6;
+}
+
+/* Article Preview Section */
+
+.article-previews {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.article-previews aside {
+  grid-column-start: span 2;
+  opacity: 0.6;
+}
+
+.article-previews article {
+  opacity: 0.2;
+}
+
+/* Full Page Advertisement */
+.full-page-ad {
+  height: 100vh;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Guide Preview Section */
+
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+  grid-gap: 20px;
+}
+
+.guides article {
+  opacity: 0.6;
+}
+
+.guides aside {
+  opacity: 0.8;
+}
+
+/* Random Banner */
+
+.design-systems-banner {
+  height: 40vh;
+  opacity: 0.95;
+  padding: 70px 33% 0 60px;
+}
+
+/* More Articles... */
+
+.featured-members {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.featured-members :first-child {
+  grid-column-start: span 2;
+}
+
+.featured-members article {
+  opacity: 0.4;
+}
+
+/* Footer */
+
+footer {
+  height: 70vh;
+  opacity: 0.8;
+}
