@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Library</title>
+  </head>
+  <body>
+    <header>
+      <svg
+        id="svg-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="60"
+        height="60"
+        viewBox="0 0 172 172"
+        style="fill: #000000"
+      >
+        <g
+          fill="none"
+          fill-rule="nonzero"
+          stroke="none"
+          stroke-width="1"
+          stroke-linecap="butt"
+          stroke-linejoin="miter"
+          stroke-miterlimit="10"
+          stroke-dasharray=""
+          stroke-dashoffset="0"
+          font-family="none"
+          font-weight="none"
+          font-size="none"
+          text-anchor="none"
+          style="mix-blend-mode: normal"
+        >
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g>
+            <path d="M13.975,5.375h36.55v111.8h-36.55z" fill="#f78f8f"></path>
+            <path
+              d="M49.45,6.45v109.65h-34.4v-109.65h34.4M51.6,4.3h-38.7v113.95h38.7v-113.95z"
+              fill="#c74343"
+            ></path>
+            <path d="M52.675,22.575h32.25v94.6h-32.25z" fill="#8bb7f0"></path>
+            <path
+              d="M83.85,23.65v92.45h-30.1v-92.45h30.1M86,21.5h-34.4v96.75h34.4v-96.75z"
+              fill="#4e7ab5"
+            ></path>
+            <path
+              d="M21.5,25.8h21.5v2.15h-21.5zM21.5,86h21.5v2.15h-21.5zM21.5,98.9h21.5v2.15h-21.5z"
+              fill="#c74343"
+            ></path>
+            <path
+              d="M60.2,43h17.2v2.15h-17.2zM60.2,86h17.2v2.15h-17.2zM60.2,98.9h17.2v2.15h-17.2z"
+              fill="#4e7ab5"
+            ></path>
+            <path d="M112.875,13.975h32.25v103.2h-32.25z" fill="#bae0bd"></path>
+            <path
+              d="M144.05,15.05v101.05h-30.1v-101.05h30.1M146.2,12.9h-34.4v105.35h34.4v-105.35z"
+              fill="#5e9c76"
+            ></path>
+            <path
+              d="M120.4,34.4h17.2v2.15h-17.2zM120.4,86h17.2v2.15h-17.2zM120.4,98.9h17.2v2.15h-17.2z"
+              fill="#5e9c76"
+            ></path>
+            <g>
+              <path
+                d="M30.1,166.625c-4.085,0 -7.525,-3.44 -7.525,-7.525v-24.725h15.05v24.725c0,4.085 -3.44,7.525 -7.525,7.525z"
+                fill="#deb974"
+              ></path>
+              <path
+                d="M36.55,135.45v23.65c0,3.655 -2.795,6.45 -6.45,6.45c-3.655,0 -6.45,-2.795 -6.45,-6.45v-23.65h12.9M38.7,133.3h-17.2v25.8c0,4.73 3.87,8.6 8.6,8.6v0c4.73,0 8.6,-3.87 8.6,-8.6v-25.8z"
+                fill="#967a44"
+              ></path>
+            </g>
+            <g>
+              <path
+                d="M141.9,166.625c-4.085,0 -7.525,-3.44 -7.525,-7.525v-24.725h15.05v24.725c0,4.085 -3.44,7.525 -7.525,7.525z"
+                fill="#deb974"
+              ></path>
+              <path
+                d="M148.35,135.45v23.65c0,3.655 -2.795,6.45 -6.45,6.45c-3.655,0 -6.45,-2.795 -6.45,-6.45v-23.65h12.9M150.5,133.3h-17.2v25.8c0,4.73 3.87,8.6 8.6,8.6c4.73,0 8.6,-3.87 8.6,-8.6v-25.8z"
+                fill="#967a44"
+              ></path>
+            </g>
+            <g>
+              <path
+                d="M5.375,117.175h161.25v19.35h-161.25z"
+                fill="#f5ce85"
+              ></path>
+              <path
+                d="M165.55,118.25v17.2h-159.1v-17.2h159.1M167.7,116.1h-163.4v21.5h163.4v-21.5z"
+                fill="#967a44"
+              ></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+      <h1>Library</h1>
+    </header>
+    <main id="main">
+      <div class="card" id="card-add">
+        <div id="add-container">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+    </main>
+    <div id="form-container">
+      <form action="#" id="form">
+        <div id="exit-container">
+          <i class="fas fa-times" id="exit"></i>
+        </div>
+        <input
+          type="text"
+          placeholder="Title"
+          class="book-info-input"
+          id="title"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          class="book-info-input"
+          id="author"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Pages"
+          class="book-info-input"
+          id="pages"
+          required
+        />
+        <div id="form-read-container">
+          <label for="form-read" id="form-read-label">Read?</label>
+          <input type="checkbox" id="form-read" />
+        </div>
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
