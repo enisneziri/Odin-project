@@ -1,0 +1,101 @@
+.container {
+  border: 1px solid black;
+}
+
+.card-header {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline #f72210;
+  color: inherit;
+}
+
+/* header styles */
+
+.blog-header {
+  background-color: #f72210;
+  color: white;
+}
+
+.blog-header-logo {
+  font-size: 52px;
+}
+
+.login-btn {
+  color: white;
+  border: none;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.login-btn:hover {
+  background-color: inherit;
+}
+
+.subscribe-btn {
+  margin-right: 14px;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-btn:hover {
+  color: black !important;
+  background-color: #ffe400;
+  text-decoration: none;
+}
+
+.date-widget {
+  color: white;
+}
+
+/* other styles */
+
+.vs {
+  text-align: center;
+  align-self: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* footer styles */
+footer {
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.brand {
+  color: #f72210;
+  padding-right: 5px;
+  font-size: 36px;
+}
+
+.copyright {
+  align-content: center;
+  justify-content: center;
+}
